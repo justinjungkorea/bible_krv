@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bibla_krv/static/css/main.e4875333.chunk.css",
-    "main.js": "/bibla_krv/static/js/main.a343702f.chunk.js",
-    "main.js.map": "/bibla_krv/static/js/main.a343702f.chunk.js.map",
-    "runtime~main.js": "/bibla_krv/static/js/runtime~main.6635a495.js",
-    "runtime~main.js.map": "/bibla_krv/static/js/runtime~main.6635a495.js.map",
-    "static/js/2.40168f32.chunk.js": "/bibla_krv/static/js/2.40168f32.chunk.js",
-    "static/js/2.40168f32.chunk.js.map": "/bibla_krv/static/js/2.40168f32.chunk.js.map",
-    "index.html": "/bibla_krv/index.html",
-    "precache-manifest.0af48f96a4a7f2b595c7498cb6fcf1ae.js": "/bibla_krv/precache-manifest.0af48f96a4a7f2b595c7498cb6fcf1ae.js",
-    "service-worker.js": "/bibla_krv/service-worker.js",
-    "static/css/main.e4875333.chunk.css.map": "/bibla_krv/static/css/main.e4875333.chunk.css.map"
+    "main.css": "/bible_krv/static/css/main.e4875333.chunk.css",
+    "main.js": "/bible_krv/static/js/main.d26def0a.chunk.js",
+    "main.js.map": "/bible_krv/static/js/main.d26def0a.chunk.js.map",
+    "runtime~main.js": "/bible_krv/static/js/runtime~main.1e47d544.js",
+    "runtime~main.js.map": "/bible_krv/static/js/runtime~main.1e47d544.js.map",
+    "static/js/2.40168f32.chunk.js": "/bible_krv/static/js/2.40168f32.chunk.js",
+    "static/js/2.40168f32.chunk.js.map": "/bible_krv/static/js/2.40168f32.chunk.js.map",
+    "index.html": "/bible_krv/index.html",
+    "precache-manifest.3960778626d4c80ddbde9ea87b9cbfba.js": "/bible_krv/precache-manifest.3960778626d4c80ddbde9ea87b9cbfba.js",
+    "service-worker.js": "/bible_krv/service-worker.js",
+    "static/css/main.e4875333.chunk.css.map": "/bible_krv/static/css/main.e4875333.chunk.css.map"
   }
 }
