@@ -27,5 +27,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  },
+  "homepage": "https://justinjungkorea.github.io/bibla_krv/"
 }
