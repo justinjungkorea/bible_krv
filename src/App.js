@@ -276,6 +276,7 @@ class App extends Component {
       selectedVerse.style.color = "black";
       selectedVerse.style.fontWeight = 400;
     }
+    this._selectedCopy();
   };
 
   //선택한 구절 클립보드에 복사
@@ -351,6 +352,8 @@ class App extends Component {
               해당 장(절)보다 큰 수 입력시 마지막 장(절) 출력
               <br />
               예) 창세기 경우 50장 이므로 50보다 큰 수 입력시 50장이 입력됨.
+              <br />
+              원하는 구절 선택시 클립보드에 복사됨.
             </p>
           ) : null}
         </div>
@@ -358,9 +361,6 @@ class App extends Component {
           <div>
             <button id="copy" onClick={this._copyData}>
               전체복사
-            </button>
-            <button id="partedCopy" onClick={this._selectedCopy}>
-              선택복사
             </button>
             <button id="clear" onClick={this._clearInput}>
               초기화
