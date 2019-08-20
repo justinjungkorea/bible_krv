@@ -303,7 +303,6 @@ class App extends Component {
     range.selectNode(el);
     window.getSelection().addRange(range);
     document.execCommand("copy");
-    alert("클립보드에 복사 완료!");
   };
 
   //출력된 구절 클립보드에 복사하기
