@@ -320,7 +320,7 @@ class App extends Component {
   _prevChapter = () => {
     let chNum = document.getElementById("chapterNum").value;
     if (chNum > 1) {
-      document.getElementById("chapterNum").value = Number(chNum - 1);
+      document.getElementById("chapterNum").value = Number(chNum) - 1;
       document.getElementById("verseStart").value = null;
       document.getElementById("verseEnd").value = null;
       document.getElementById("viewSubmit").click();
@@ -329,7 +329,7 @@ class App extends Component {
 
   _nextChapter = () => {
     let chNum = document.getElementById("chapterNum").value;
-    document.getElementById("chapterNum").value = Number(chNum + 1);
+    document.getElementById("chapterNum").value = Number(chNum) + 1;
     document.getElementById("verseStart").value = null;
     document.getElementById("verseEnd").value = null;
     document.getElementById("viewSubmit").click();
