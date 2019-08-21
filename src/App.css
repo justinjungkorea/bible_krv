@@ -72,7 +72,7 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-#copy, #clear, #partedCopy {
+#copy, #clear, #prev, #next {
   background: #53c1ff;
   color: #fff;
   border: 1px solid #fff;
@@ -81,12 +81,12 @@ input[type="submit"] {
   cursor: pointer;
   font-size: 12pt;
   text-shadow: none;
-  width: 100px;
+  width: 80px;
   height: 25px;
   margin:5px;
 }
 
-#copy:hover, #clear:hover, #partedCopy:hover {
+#copy:hover, #clear:hover, #prev:hover, #next:hover {
   background: #016abc;
   color: #fff;
   border: 1px solid #eee;

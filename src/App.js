@@ -135,7 +135,7 @@ class App extends Component {
             />
             절
           </label>
-          <input type="submit" value="보기" />
+          <input type="submit" id="viewSubmit" value="보기" />
         </form>
       </div>
     );
@@ -317,6 +317,24 @@ class App extends Component {
     alert("클립보드에 복사 완료!");
   };
 
+  _prevChapter = () => {
+    let chNum = document.getElementById("chapterNum").value;
+    if (chNum > 1) {
+      document.getElementById("chapterNum").value = Number(chNum - 1);
+      document.getElementById("verseStart").value = null;
+      document.getElementById("verseEnd").value = null;
+      document.getElementById("viewSubmit").click();
+    }
+  };
+
+  _nextChapter = () => {
+    let chNum = document.getElementById("chapterNum").value;
+    document.getElementById("chapterNum").value = Number(chNum + 1);
+    document.getElementById("verseStart").value = null;
+    document.getElementById("verseEnd").value = null;
+    document.getElementById("viewSubmit").click();
+  };
+
   _clearInput = () => {
     document.getElementById("chapterNum").value = null;
     document.getElementById("verseStart").value = null;
@@ -361,6 +379,12 @@ class App extends Component {
             <button id="copy" onClick={this._copyData}>
               전체복사
             </button>
+            <button id="prev" onClick={this._prevChapter}>
+              이전장
+            </button>
+            <button id="next" onClick={this._nextChapter}>
+              다음장
+            </button>
             <button id="clear" onClick={this._clearInput}>
               초기화
             </button>
@@ -371,13 +395,14 @@ class App extends Component {
           {this._words()}
           {this.state.view && this.state.verseS !== this.state.verseE ? (
             <p id="info">
-              {this.state.bookName} {this.state.chapter}:{this.state.verseS}~
-              {this.state.verseE} KRV
+              {this.state.bookName} {this.state.chapter}:{this.state.verseS}
+              ~{this.state.verseE} KRV
             </p>
           ) : null}
           {this.state.view && this.state.verseS === this.state.verseE ? (
             <p id="info">
-              {this.state.bookName} {this.state.chapter}:{this.state.verseS} KRV
+              {this.state.bookName} {this.state.chapter}:{this.state.verseS}{" "}
+              KRV
             </p>
           ) : null}
         </div>
