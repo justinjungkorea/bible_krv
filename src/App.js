@@ -212,6 +212,11 @@ class App extends Component {
     }
     let i = vsnum;
     while (i <= venum) {
+      var element = document.getElementById(i * 1000);
+      if (element !== null) {
+        element.style.color = "black";
+        element.style.fontWeight = 400;
+      }
       loaded.push({ verseNum: i, verse: Object.values(ar)[i - 1] });
       i++;
     }
