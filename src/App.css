@@ -79,11 +79,11 @@ input[type="submit"] {
   border-radius: 5px;
   align-self: center;
   cursor: pointer;
-  font-size: 12pt;
+  font-size: 10pt;
   text-shadow: none;
   width: 80px;
   height: 25px;
-  margin:5px;
+  margin:3px;
 }
 
 #copy:hover, #clear:hover, #prev:hover, #next:hover {
