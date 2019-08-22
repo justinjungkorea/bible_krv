@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bible_krv/static/css/main.0bcad6fa.chunk.css",
+    "main.css": "/bible_krv/static/css/main.e9e55acf.chunk.css",
     "main.js": "/bible_krv/static/js/main.00ec77c3.chunk.js",
     "main.js.map": "/bible_krv/static/js/main.00ec77c3.chunk.js.map",
     "runtime~main.js": "/bible_krv/static/js/runtime~main.1e47d544.js",
@@ -8,8 +8,8 @@
     "static/js/2.40168f32.chunk.js": "/bible_krv/static/js/2.40168f32.chunk.js",
     "static/js/2.40168f32.chunk.js.map": "/bible_krv/static/js/2.40168f32.chunk.js.map",
     "index.html": "/bible_krv/index.html",
-    "precache-manifest.e3070327501a0807a30bfc283cb73f6b.js": "/bible_krv/precache-manifest.e3070327501a0807a30bfc283cb73f6b.js",
+    "precache-manifest.248d002de60d2f09a5c5dfced8660b77.js": "/bible_krv/precache-manifest.248d002de60d2f09a5c5dfced8660b77.js",
     "service-worker.js": "/bible_krv/service-worker.js",
-    "static/css/main.0bcad6fa.chunk.css.map": "/bible_krv/static/css/main.0bcad6fa.chunk.css.map"
+    "static/css/main.e9e55acf.chunk.css.map": "/bible_krv/static/css/main.e9e55acf.chunk.css.map"
   }
 }
