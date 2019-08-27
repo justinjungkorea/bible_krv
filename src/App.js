@@ -397,7 +397,6 @@ class App extends Component {
         ) : null}
         <br />
         <div className="verseDisplay" align="left">
-          {this._words()}
           {this.state.view && this.state.verseS !== this.state.verseE ? (
             <p id="info">
               {this.state.bookName} {this.state.chapter}:{this.state.verseS}
@@ -410,6 +409,7 @@ class App extends Component {
               KRV
             </p>
           ) : null}
+          {this._words()}
         </div>
       </div>
     );
